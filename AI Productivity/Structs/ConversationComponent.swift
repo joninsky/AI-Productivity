@@ -28,4 +28,8 @@ struct ConversationComponent: Identifiable, Hashable {
         case ai
     }
     
+    static func mock(generator: Generator = .ai, text: String = "Some default conversation") -> ConversationComponent {
+        return ConversationComponent(generator: generator, text: text, meta: nil)
+    }
+    
 }

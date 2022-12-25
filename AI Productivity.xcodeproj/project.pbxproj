@@ -37,6 +37,7 @@
 		4779C0E7295638EC000807FF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E6295638EC000807FF /* CustomButton.swift */; };
 		4779C0E92957083C000807FF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E82957083C000807FF /* CustomTextField.swift */; };
 		4779C0EB29576040000807FF /* ConversationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EA29576040000807FF /* ConversationComponent.swift */; };
+		4779C0ED2958673A000807FF /* ConversationComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EC2958673A000807FF /* ConversationComponentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		4779C0E6295638EC000807FF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		4779C0E82957083C000807FF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		4779C0EA29576040000807FF /* ConversationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationComponent.swift; sourceTree = "<group>"; };
+		4779C0EC2958673A000807FF /* ConversationComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationComponentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				4779C0CA294D117E000807FF /* SettingsView.swift */,
 				4779C0D2294E726C000807FF /* ModelListView.swift */,
 				4779C0D629545AB8000807FF /* OpenAIAPIKeyInput.swift */,
+				4779C0EC2958673A000807FF /* ConversationComponentView.swift */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				4779C0EB29576040000807FF /* ConversationComponent.swift in Sources */,
 				4779C0E92957083C000807FF /* CustomTextField.swift in Sources */,
 				47385A142947DBF700FE17D3 /* AI_ProductivityApp.swift in Sources */,
+				4779C0ED2958673A000807FF /* ConversationComponentView.swift in Sources */,
 				4779C0E52955BA4C000807FF /* LineView.swift in Sources */,
 				4779C0C52948FB1E000807FF /* NetworkingState.swift in Sources */,
 				4779C0D529539965000807FF /* UserDefaultKeys.swift in Sources */,
@@ -555,7 +559,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AI Productivity/AI_Productivity.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity/Preview Content\"";
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -596,7 +600,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AI Productivity/AI_Productivity.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity/Preview Content\"";
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				ENABLE_HARDENED_RUNTIME = YES;

@@ -23,17 +23,7 @@ struct ConversationView: View {
                 ScrollView(.vertical) {
                     VStack(alignment: .leading, spacing: 22) {
                         ForEach(conversationController.conversationComponents) { component in
-                            TextEditor(text: .constant(component.text))
-                                .allowsTightening(false)
-                                .font(.body)
-                                .foregroundColor(Color.darkModeWhite)
-                                .multilineTextAlignment(.leading)
-                                .lineSpacing(12)
-                                .padding([.leading, .trailing], 24)
-                                .padding([.top, .bottom], 12)
-                                .background(component.backgroundColor)
-                                .cornerRadius(8)
-                                .id(component.id)
+                            ConversationComponentView(component: component)
                         }
                     }
                 }.onChange(of: conversationController.conversationComponents) { newValue in
@@ -60,8 +50,7 @@ struct ConversationView: View {
     
     //MARK: Init if needed
     init() {
-        UITextView.appearance().backgroundColor = .clear
-        UITextView.appearance().isScrollEnabled = false
+        
     }
     
     //MARK: Functions
