@@ -41,7 +41,7 @@ struct SettingsView: View {
             Spacer()
             Button(action: { showSettings.toggle() }) {
                 Image(systemName: "xmark").font(.title).foregroundColor(Color.primary)
-            }
+            }.buttonStyle(.plain)
         }
     }
     
@@ -51,7 +51,7 @@ struct SettingsView: View {
             Spacer()
             Button(action: { keyController.deleteAPIKey() }) {
                 Image(systemName: "trash").font(.body).foregroundColor(Color.red)
-            }
+            }.buttonStyle(.plain)
         }
     }
     

@@ -26,14 +26,17 @@ struct ModelListView: View {
             case .networking:
                 ProgressView()
             case .error(let error):
-                VStack {
-                    Image(systemName: "xmark")
-                    Text(error.localizedDescription)
-                }
+                Button(action: { Task { await model.queryModelList() } }) {
+                    VStack {
+                        Image(systemName: "xmark")
+                        Text(error.localizedDescription)
+                        Text("Tap to retry")
+                    }
+                }.buttonStyle(.plain)
             case .finished, .neverCalled:
                 modelList
             case .noResults:
-                Text("No results")
+                noResultsButton
             }
         }.task {
             await model.queryModelList()
@@ -49,7 +52,7 @@ struct ModelListView: View {
                         modelSelected?(model)
                     } label: {
                         HStack {
-                            Text(model.humanReadableName()).font(.title3).foregroundColor(Color.primary)
+                            Text(model.humanReadableName()).font(.title3.bold()).foregroundColor(Color.primary)
                             Spacer()
                             switch model == conversationController.selectedModel {
                             case true:
@@ -57,11 +60,20 @@ struct ModelListView: View {
                             case false:
                                 EmptyView()
                             }
-                        }
-                    }
+                        }.frame(minHeight: 55)
+                    }.buttonStyle(.plain)
                 }
             }
         }
+    }
+    
+    var noResultsButton: some View {
+        Button(action: { Task { await model.queryModelList() } }) {
+            VStack {
+                Image(systemName: "questionmark.circle")
+                Text("Tap to retry")
+            }
+        }.buttonStyle(.plain)
     }
     
     //MARK: Init if needed

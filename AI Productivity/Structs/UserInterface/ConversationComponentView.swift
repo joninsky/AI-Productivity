@@ -55,8 +55,10 @@ struct ConversationComponentView: View {
     internal init(component: ConversationComponent) {
         self.component = component
         
+        #if os(iOS)
         UITextView.appearance().backgroundColor = .clear
         UITextView.appearance().isScrollEnabled = false
+        #endif
     }
     
     //MARK: Functions

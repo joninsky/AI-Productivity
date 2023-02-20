@@ -38,6 +38,37 @@
 		4779C0E92957083C000807FF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E82957083C000807FF /* CustomTextField.swift */; };
 		4779C0EB29576040000807FF /* ConversationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EA29576040000807FF /* ConversationComponent.swift */; };
 		4779C0ED2958673A000807FF /* ConversationComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EC2958673A000807FF /* ConversationComponentView.swift */; };
+		478E111229A2E6E5005C518B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47385A172947DBF800FE17D3 /* Assets.xcassets */; };
+		47E00B1429A1A7C400207B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E00B1329A1A7C400207B3E /* Assets.xcassets */; };
+		47E00B1729A1A7C400207B3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E00B1629A1A7C400207B3E /* Preview Assets.xcassets */; };
+		47E00B2229A1A7C400207B3E /* AI_Productivity_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E00B2129A1A7C400207B3E /* AI_Productivity_MacTests.swift */; };
+		47E00B2C29A1A7C400207B3E /* AI_Productivity_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E00B2B29A1A7C400207B3E /* AI_Productivity_MacUITests.swift */; };
+		47E00B2E29A1A7C400207B3E /* AI_Productivity_MacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E00B2D29A1A7C400207B3E /* AI_Productivity_MacUITestsLaunchTests.swift */; };
+		47E00B3829A1A80B00207B3E /* AI_ProductivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47385A132947DBF700FE17D3 /* AI_ProductivityApp.swift */; };
+		47E00B3929A1A81300207B3E /* AppMasterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0DC29545EEB000807FF /* AppMasterState.swift */; };
+		47E00B3A29A1A81900207B3E /* OpenAIAPIKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0D829545B25000807FF /* OpenAIAPIKeyController.swift */; };
+		47E00B3D29A1A83400207B3E /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0C62948FEFE000807FF /* ConversationController.swift */; };
+		47E00B3E29A1A83900207B3E /* ModelListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0CE294E70DC000807FF /* ModelListController.swift */; };
+		47E00B3F29A1A83F00207B3E /* OpenAINetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0BF2948F868000807FF /* OpenAINetworking.swift */; };
+		47E00B4029A1A84700207B3E /* OpenAPIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0B72948F7F7000807FF /* OpenAPIRoutes.swift */; };
+		47E00B4129A1A84B00207B3E /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E12954BAD8000807FF /* NetworkingError.swift */; };
+		47E00B4229A1A85100207B3E /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0D429539965000807FF /* UserDefaultKeys.swift */; };
+		47E00B4329A1A85700207B3E /* NetworkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0C42948FB1E000807FF /* NetworkingState.swift */; };
+		47E00B4429A1A85C00207B3E /* OpenAIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0D0294E716C000807FF /* OpenAIModel.swift */; };
+		47E00B4529A1A86600207B3E /* ConversationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EA29576040000807FF /* ConversationComponent.swift */; };
+		47E00B4629A1A86B00207B3E /* CompletionRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0BA2948F812000807FF /* CompletionRequestBody.swift */; };
+		47E00B4729A1A87200207B3E /* CompletionRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0BC2948F82C000807FF /* CompletionRequestResponse.swift */; };
+		47E00B4829A1A87800207B3E /* ModelsRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0CC294D1F39000807FF /* ModelsRequestResponse.swift */; };
+		47E00B4929A1A88400207B3E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E6295638EC000807FF /* CustomButton.swift */; };
+		47E00B4A29A1A88400207B3E /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E42955BA4C000807FF /* LineView.swift */; };
+		47E00B4B29A1A88400207B3E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0E82957083C000807FF /* CustomTextField.swift */; };
+		47E00B5029A1A88800207B3E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0CA294D117E000807FF /* SettingsView.swift */; };
+		47E00B5129A1A88800207B3E /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0D2294E726C000807FF /* ModelListView.swift */; };
+		47E00B5229A1A88800207B3E /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0C8294D0B89000807FF /* ConversationView.swift */; };
+		47E00B5329A1A88800207B3E /* ConversationComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0EC2958673A000807FF /* ConversationComponentView.swift */; };
+		47E00B5429A1A88800207B3E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0C22948F890000807FF /* RootView.swift */; };
+		47E00B5529A1A88800207B3E /* OpenAIAPIKeyInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0D629545AB8000807FF /* OpenAIAPIKeyInput.swift */; };
+		47E00B5629A1A89200207B3E /* Color_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779C0DF295465CE000807FF /* Color_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +85,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 47385A0F2947DBF700FE17D3;
 			remoteInfo = "AI Productivity";
+		};
+		47E00B1E29A1A7C400207B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47385A082947DBF700FE17D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E00B0C29A1A7C300207B3E;
+			remoteInfo = "AI Productivity Mac";
+		};
+		47E00B2829A1A7C400207B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47385A082947DBF700FE17D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E00B0C29A1A7C300207B3E;
+			remoteInfo = "AI Productivity Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -94,6 +139,15 @@
 		4779C0E82957083C000807FF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		4779C0EA29576040000807FF /* ConversationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationComponent.swift; sourceTree = "<group>"; };
 		4779C0EC2958673A000807FF /* ConversationComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationComponentView.swift; sourceTree = "<group>"; };
+		47E00B0D29A1A7C300207B3E /* AI Productivity Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Productivity Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E00B1329A1A7C400207B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E00B1629A1A7C400207B3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E00B1829A1A7C400207B3E /* AI_Productivity_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AI_Productivity_Mac.entitlements; sourceTree = "<group>"; };
+		47E00B1D29A1A7C400207B3E /* AI Productivity MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Productivity MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E00B2129A1A7C400207B3E /* AI_Productivity_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Productivity_MacTests.swift; sourceTree = "<group>"; };
+		47E00B2729A1A7C400207B3E /* AI Productivity MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Productivity MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E00B2B29A1A7C400207B3E /* AI_Productivity_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Productivity_MacUITests.swift; sourceTree = "<group>"; };
+		47E00B2D29A1A7C400207B3E /* AI_Productivity_MacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Productivity_MacUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +172,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47E00B0A29A1A7C300207B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B1A29A1A7C400207B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B2429A1A7C400207B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -127,6 +202,9 @@
 				47385A122947DBF700FE17D3 /* AI Productivity */,
 				47385A242947DBF800FE17D3 /* AI ProductivityTests */,
 				47385A2E2947DBF800FE17D3 /* AI ProductivityUITests */,
+				47E00B0E29A1A7C300207B3E /* AI Productivity Mac */,
+				47E00B2029A1A7C400207B3E /* AI Productivity MacTests */,
+				47E00B2A29A1A7C400207B3E /* AI Productivity MacUITests */,
 				47385A112947DBF700FE17D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +215,9 @@
 				47385A102947DBF700FE17D3 /* AI Productivity.app */,
 				47385A212947DBF800FE17D3 /* AI ProductivityTests.xctest */,
 				47385A2B2947DBF800FE17D3 /* AI ProductivityUITests.xctest */,
+				47E00B0D29A1A7C300207B3E /* AI Productivity Mac.app */,
+				47E00B1D29A1A7C400207B3E /* AI Productivity MacTests.xctest */,
+				47E00B2729A1A7C400207B3E /* AI Productivity MacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,6 +332,41 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		47E00B0E29A1A7C300207B3E /* AI Productivity Mac */ = {
+			isa = PBXGroup;
+			children = (
+				47E00B1329A1A7C400207B3E /* Assets.xcassets */,
+				47E00B1829A1A7C400207B3E /* AI_Productivity_Mac.entitlements */,
+				47E00B1529A1A7C400207B3E /* Preview Content */,
+			);
+			path = "AI Productivity Mac";
+			sourceTree = "<group>";
+		};
+		47E00B1529A1A7C400207B3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47E00B1629A1A7C400207B3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47E00B2029A1A7C400207B3E /* AI Productivity MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E00B2129A1A7C400207B3E /* AI_Productivity_MacTests.swift */,
+			);
+			path = "AI Productivity MacTests";
+			sourceTree = "<group>";
+		};
+		47E00B2A29A1A7C400207B3E /* AI Productivity MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47E00B2B29A1A7C400207B3E /* AI_Productivity_MacUITests.swift */,
+				47E00B2D29A1A7C400207B3E /* AI_Productivity_MacUITestsLaunchTests.swift */,
+			);
+			path = "AI Productivity MacUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +423,59 @@
 			productReference = 47385A2B2947DBF800FE17D3 /* AI ProductivityUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		47E00B0C29A1A7C300207B3E /* AI Productivity Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E00B3529A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity Mac" */;
+			buildPhases = (
+				47E00B0929A1A7C300207B3E /* Sources */,
+				47E00B0A29A1A7C300207B3E /* Frameworks */,
+				47E00B0B29A1A7C300207B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Productivity Mac";
+			productName = "AI Productivity Mac";
+			productReference = 47E00B0D29A1A7C300207B3E /* AI Productivity Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E00B1C29A1A7C400207B3E /* AI Productivity MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E00B3629A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity MacTests" */;
+			buildPhases = (
+				47E00B1929A1A7C400207B3E /* Sources */,
+				47E00B1A29A1A7C400207B3E /* Frameworks */,
+				47E00B1B29A1A7C400207B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E00B1F29A1A7C400207B3E /* PBXTargetDependency */,
+			);
+			name = "AI Productivity MacTests";
+			productName = "AI Productivity MacTests";
+			productReference = 47E00B1D29A1A7C400207B3E /* AI Productivity MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47E00B2629A1A7C400207B3E /* AI Productivity MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E00B3729A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity MacUITests" */;
+			buildPhases = (
+				47E00B2329A1A7C400207B3E /* Sources */,
+				47E00B2429A1A7C400207B3E /* Frameworks */,
+				47E00B2529A1A7C400207B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E00B2929A1A7C400207B3E /* PBXTargetDependency */,
+			);
+			name = "AI Productivity MacUITests";
+			productName = "AI Productivity MacUITests";
+			productReference = 47E00B2729A1A7C400207B3E /* AI Productivity MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -314,8 +483,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					47385A0F2947DBF700FE17D3 = {
 						CreatedOnToolsVersion = 14.1;
@@ -327,6 +496,17 @@
 					47385A2A2947DBF800FE17D3 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 47385A0F2947DBF700FE17D3;
+					};
+					47E00B0C29A1A7C300207B3E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47E00B1C29A1A7C400207B3E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47E00B0C29A1A7C300207B3E;
+					};
+					47E00B2629A1A7C400207B3E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47E00B0C29A1A7C300207B3E;
 					};
 				};
 			};
@@ -346,6 +526,9 @@
 				47385A0F2947DBF700FE17D3 /* AI Productivity */,
 				47385A202947DBF800FE17D3 /* AI ProductivityTests */,
 				47385A2A2947DBF800FE17D3 /* AI ProductivityUITests */,
+				47E00B0C29A1A7C300207B3E /* AI Productivity Mac */,
+				47E00B1C29A1A7C400207B3E /* AI Productivity MacTests */,
+				47E00B2629A1A7C400207B3E /* AI Productivity MacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -368,6 +551,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		47385A292947DBF800FE17D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B0B29A1A7C300207B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E00B1729A1A7C400207B3E /* Preview Assets.xcassets in Resources */,
+				478E111229A2E6E5005C518B /* Assets.xcassets in Resources */,
+				47E00B1429A1A7C400207B3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B1B29A1A7C400207B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B2529A1A7C400207B3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,6 +634,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47E00B0929A1A7C300207B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E00B4329A1A85700207B3E /* NetworkingState.swift in Sources */,
+				47E00B5429A1A88800207B3E /* RootView.swift in Sources */,
+				47E00B4929A1A88400207B3E /* CustomButton.swift in Sources */,
+				47E00B3829A1A80B00207B3E /* AI_ProductivityApp.swift in Sources */,
+				47E00B4B29A1A88400207B3E /* CustomTextField.swift in Sources */,
+				47E00B4029A1A84700207B3E /* OpenAPIRoutes.swift in Sources */,
+				47E00B3E29A1A83900207B3E /* ModelListController.swift in Sources */,
+				47E00B4629A1A86B00207B3E /* CompletionRequestBody.swift in Sources */,
+				47E00B4129A1A84B00207B3E /* NetworkingError.swift in Sources */,
+				47E00B5529A1A88800207B3E /* OpenAIAPIKeyInput.swift in Sources */,
+				47E00B4229A1A85100207B3E /* UserDefaultKeys.swift in Sources */,
+				47E00B4529A1A86600207B3E /* ConversationComponent.swift in Sources */,
+				47E00B3929A1A81300207B3E /* AppMasterState.swift in Sources */,
+				47E00B3F29A1A83F00207B3E /* OpenAINetworking.swift in Sources */,
+				47E00B4729A1A87200207B3E /* CompletionRequestResponse.swift in Sources */,
+				47E00B4829A1A87800207B3E /* ModelsRequestResponse.swift in Sources */,
+				47E00B5229A1A88800207B3E /* ConversationView.swift in Sources */,
+				47E00B5129A1A88800207B3E /* ModelListView.swift in Sources */,
+				47E00B4429A1A85C00207B3E /* OpenAIModel.swift in Sources */,
+				47E00B5329A1A88800207B3E /* ConversationComponentView.swift in Sources */,
+				47E00B3D29A1A83400207B3E /* ConversationController.swift in Sources */,
+				47E00B4A29A1A88400207B3E /* LineView.swift in Sources */,
+				47E00B3A29A1A81900207B3E /* OpenAIAPIKeyController.swift in Sources */,
+				47E00B5029A1A88800207B3E /* SettingsView.swift in Sources */,
+				47E00B5629A1A89200207B3E /* Color_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B1929A1A7C400207B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E00B2229A1A7C400207B3E /* AI_Productivity_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E00B2329A1A7C400207B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E00B2E29A1A7C400207B3E /* AI_Productivity_MacUITestsLaunchTests.swift in Sources */,
+				47E00B2C29A1A7C400207B3E /* AI_Productivity_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -439,6 +695,16 @@
 			isa = PBXTargetDependency;
 			target = 47385A0F2947DBF700FE17D3 /* AI Productivity */;
 			targetProxy = 47385A2C2947DBF800FE17D3 /* PBXContainerItemProxy */;
+		};
+		47E00B1F29A1A7C400207B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E00B0C29A1A7C300207B3E /* AI Productivity Mac */;
+			targetProxy = 47E00B1E29A1A7C400207B3E /* PBXContainerItemProxy */;
+		};
+		47E00B2929A1A7C400207B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E00B0C29A1A7C300207B3E /* AI Productivity Mac */;
+			targetProxy = 47E00B2829A1A7C400207B3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,6 +742,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -534,6 +801,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -558,8 +826,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AI Productivity/AI_Productivity.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity/Preview Content\"";
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -599,8 +870,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "AI Productivity/AI_Productivity.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity/Preview Content\"";
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -641,6 +915,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -664,6 +939,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -686,6 +962,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -708,6 +985,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = WEZXTSQ23M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -721,6 +999,150 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AI Productivity";
+			};
+			name = Release;
+		};
+		47E00B2F29A1A7C400207B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI Productivity Mac/AI_Productivity_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47E00B3029A1A7C400207B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI Productivity Mac/AI_Productivity_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Productivity Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		47E00B3129A1A7C400207B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Productivity Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Productivity Mac";
+			};
+			name = Debug;
+		};
+		47E00B3229A1A7C400207B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Productivity Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Productivity Mac";
+			};
+			name = Release;
+		};
+		47E00B3329A1A7C400207B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AI Productivity Mac";
+			};
+			name = Debug;
+		};
+		47E00B3429A1A7C400207B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WEZXTSQ23M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jon-Vogel.AI-Productivity-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AI Productivity Mac";
 			};
 			name = Release;
 		};
@@ -759,6 +1181,33 @@
 			buildConfigurations = (
 				47385A3C2947DBF800FE17D3 /* Debug */,
 				47385A3D2947DBF800FE17D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E00B3529A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E00B2F29A1A7C400207B3E /* Debug */,
+				47E00B3029A1A7C400207B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E00B3629A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E00B3129A1A7C400207B3E /* Debug */,
+				47E00B3229A1A7C400207B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E00B3729A1A7C400207B3E /* Build configuration list for PBXNativeTarget "AI Productivity MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E00B3329A1A7C400207B3E /* Debug */,
+				47E00B3429A1A7C400207B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

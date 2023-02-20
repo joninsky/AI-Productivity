@@ -35,15 +35,14 @@ struct ConversationView: View {
                     }
                 }
             }
-
             HStack {
-                CustomTextField(inputText: $conversationController.userInput) {
-                    Task { await conversationController.sendInput() }
-                }
                 Button(action: { Task { await conversationController.sendInput() } }) {
                     CustomButton(networkingState: $conversationController.sendInputNetworkingState, imageName: "paperplane.circle", buttonText: "Send", color: Color.green, tintColor: Color.darkModeWhite)
-                }
-
+                }.buttonStyle(.plain)
+                Spacer()
+            }
+            CustomTextField(inputText: $conversationController.userInput) {
+                Task { await conversationController.sendInput() }
             }
         }
     }

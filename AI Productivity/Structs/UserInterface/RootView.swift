@@ -22,6 +22,7 @@ struct RootView: View {
             ConversationView().padding()
         }.sheet(isPresented: $showSettings) {
             SettingsView(showSettings: $showSettings)
+                .frame(idealWidth: 500, idealHeight: 500)
                 .environmentObject(keyController)
                 .environmentObject(conversationController)
                 .environmentObject(modelList)
@@ -34,7 +35,7 @@ struct RootView: View {
             Spacer()
             Button(action: { showSettings.toggle() }) {
                 CustomButton(imageName: "gear.circle", buttonText: "Settings", color: Color.blue, tintColor: Color.darkModeWhite)
-            }
+            }.buttonStyle(.plain)
         }
     }
 }
